@@ -1,9 +1,13 @@
 import './Desktop.scss';
+import Header from './Desktop/Header';
 
 const Desktop = props => {
     return (
         <div className='desktop'>
-            Hello Desktop
+            <Header />
+            <div className = 'desktop__container'>
+                <p className='desktop__heading'>Hello Desktop</p>
+            </div>
         </div>
     )
 }

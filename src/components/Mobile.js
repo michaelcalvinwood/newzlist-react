@@ -3,7 +3,7 @@ import './Mobile.scss';
 const Mobile = props => {
     return (
         <div className='mobile'>
-            Hello Mobile
+            <p style="text-align: center">Hello Mobile</p>
         </div>
     )
 }
